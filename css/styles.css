@@ -180,6 +180,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--color-main);
+  cursor: pointer;
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
