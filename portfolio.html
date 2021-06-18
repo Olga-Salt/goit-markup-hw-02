@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <!-- navigation -->
+      <a href="index.html" class="logo"
+        ><span class="logo-blue">Web</span>Studio</a
+      >
+      <!--================ navigation ============== -->
       <nav>
-        <a href="index.html">Web Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="list-style">
+          <li><a href="index.html" class="nav link">Студия</a></li>
+          <li>
+            <a href="./portfolio.html" class="nav link current">Портфолио</a>
+          </li>
+          <li><a href="" class="nav link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list-style">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contacts link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contacts link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <!-- section portfolio -->
-      <!--to do hidden h1 in CSS-->
+      <!--=============== section portfolio =================-->
       <section>
-        <h1>portfolio</h1>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <!-- <h1>portfolio</h1> -->
+        <!--to do hidden h1 in CSS-->
+        <ul class="list-style">
+          <li><button type="button" class="portfolio-btn">Все</button></li>
+          <li>
+            <button type="button" class="portfolio-btn">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="portfolio-btn">Приложения</button>
+          </li>
+          <li><button type="button" class="portfolio-btn">Дизайн</button></li>
+          <li>
+            <button type="button" class="portfolio-btn">Маркетинг</button>
+          </li>
         </ul>
-        <ul>
+        <ul class="list-style">
           <li>
             <a href=""
               ><img
@@ -48,8 +71,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Технокряк</h2>
+            <p class="portfolio-description">Веб-сайт</p>
           </li>
           <li>
             <a href=""
@@ -59,8 +82,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-description">Дизайн</p>
           </li>
           <li>
             <a href=""
@@ -70,8 +93,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Ресторан Seafood</h2>
+            <p class="portfolio-description">Приложение</p>
           </li>
           <li>
             <a href=""
@@ -81,8 +104,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проект Prime</h2>
+            <p class="portfolio-description">Маркетинг</p>
           </li>
           <li>
             <a href=""
@@ -92,8 +115,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Проект Boxes</h2>
+            <p class="portfolio-description">Приложение</p>
           </li>
           <li>
             <a href=""
@@ -103,8 +126,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+            <p class="portfolio-description">Веб-сайт</p>
           </li>
           <li>
             <a href=""
@@ -114,8 +137,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Издание Limited Edition</h2>
+            <p class="portfolio-description">Дизайн</p>
           </li>
           <li>
             <a href=""
@@ -125,8 +148,8 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проект LAB</h2>
+            <p class="portfolio-description">Маркетинг</p>
           </li>
           <li>
             <a href=""
@@ -136,29 +159,41 @@
                 width="370"
                 height="294"
             /></a>
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <h2 class="portfolio-title">Growing Business</h2>
+            <p class="portfolio-description">Приложение</p>
           </li>
         </ul>
       </section>
     </main>
-    <!--footer -->
-    <h2>Контакты</h2>
-    <footer>
-      <a href="index.html">Web Studio</a>
-      <address>
-        <ul>
+    <!--=============== footer ======================-->
+    <!-- <h2>address</h2> -->
+    <footer class="section-fotter">
+      <a href="index.html" class="logo"
+        ><span class="logo-blue">Web</span
+        ><span class="logo-wight">Studio</span></a
+      >
+      <!--========= address ============ -->
+      <address class="address-description">
+        <ul class="list-style">
           <li>
             <a
-              class="map link"
+              class="map link address"
               href="https://goo.gl/maps/fbzE28KHbHKd9AAWA"
               target="_blank"
               rel="noopener norefferer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@example.com" class="link address"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="link address"
+              >+38 099 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>

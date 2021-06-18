@@ -1,0 +1,200 @@
+:root {
+  --brand-color: #2196f3;
+  --hover-bnt: #188ce8;
+  --color-main: #212121;
+  --color-grey: #757575;
+  --color-wight: #ffffff;
+  --font-main: "roboto";
+  --font-logo: "releway";
+  --bgc: #2f303a;
+  --bgc-lighter: #f5f4fa;
+  --link-address: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: var(--font-main), sans-serif;
+  color: var(--color-main);
+  background-color: var(--color-wight);
+}
+.logo {
+  font-family: var(--font-logo), sans-serif;
+  font-weight: 700;
+  color: var(--color-main);
+  text-decoration: none;
+}
+.logo-blue {
+  color: var(--brand-color);
+}
+.logo-wight {
+  color: var(--color-wight);
+}
+
+/*======= navigation ========*/
+.list-style {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.nav.link {
+  color: var(--color-main);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav.link:hover,
+.nav.link:focus {
+  color: var(--brand-color);
+}
+.nav.link.current {
+  color: var(--brand-color);
+}
+/*======= navigation ========*/
+
+.contacts.link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
+}
+.contacts.link:hover,
+.contacts.link:focus {
+  color: var(--brand-color);
+}
+/*-=========== section Hero ========== */
+.section-hero {
+  text-align: center;
+  background-color: var(--bgc);
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-wight);
+}
+.model-btn {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.87;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  color: var(--color-wight);
+  background-color: var(--brand-color);
+}
+.model-btn:focus,
+.model-btn:hover {
+  background-color: var(--hover-bnt);
+}
+/*-=========== section Hero ========== */
+
+/* ==== section features company ===== */
+/* .section-features {
+} */
+.features-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-main);
+}
+.features-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
+}
+/* ==== section features company ===== */
+
+/*===== section our doing =============*/
+.title.doing,
+.title.team {
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--color-main);
+}
+/*===== section our doing =============*/
+
+/*===== section our team ==============*/
+.section-team {
+  background-color: var(--bgc-lighter);
+}
+.team-members {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-main);
+}
+.team-description {
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
+}
+/*===== section our team ==============*/
+
+/* ============== footer ============= */
+.section-fotter {
+  background-color: var(--bgc);
+}
+
+/* <!--========= address ============ --> */
+.address-description {
+  font-style: normal;
+}
+.map.link.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-wight);
+}
+
+.link.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--link-address);
+}
+.map.link.address:hover,
+.map.link.address:focus,
+.link.address:hover,
+.link.address:focus {
+  color: var(--bgc-lighter);
+}
+/* <!--========= address ============ --> */
+
+/* <!--======= section portfolio =====--> */
+.portfolio-btn {
+  background-color: var(--bgc-lighter);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-main);
+}
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-main);
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
+}
